@@ -24,12 +24,32 @@ public class ArrayDemo {
         printArrayValues(integers);
         initialiseIntegerArray(integers);
         printArrayValues(integers);
-
+        boolean response = searchInArray(integers, 22);
+        if (response) {
+            System.out.println("Value found!");
+        } else {
+            System.out.println("Value not found");
+        }
+        System.out.println(response ? "value found" : "not found");
     }
 
-    /*public static boolean searchInArray(int[] array, int value) {
-
-    }*/
+    /**
+     * This method can search a integer value in an integer array.
+     *
+     * @param array an integer array
+     * @param value the value to be searched
+     * @return True if the {@param value} is found in the {@param array}
+     */
+    public static boolean searchInArray(int[] array, int value) {
+        boolean response = false;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == value) {
+                response = true;
+                break;
+            }
+        }
+        return response;
+    }
 
     public static void printArrayValues(int[] integers) {
         System.out.println(Arrays.toString(integers));

@@ -46,6 +46,10 @@ public class ArrayFunctions {
         return false;
     }
 
+    public boolean deleteValue(int index, int[] array) {
+        return false;
+    }
+
     /**
      * This method will search for an integer value inside an integer array.
      */

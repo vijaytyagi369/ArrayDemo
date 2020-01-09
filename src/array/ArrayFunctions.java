@@ -56,6 +56,9 @@ public class ArrayFunctions {
 
     }
 
+    /*
+     * This method will traverse the array and print all the values.
+     * */
     public void printArrayValues(int[] array) {
 
     }

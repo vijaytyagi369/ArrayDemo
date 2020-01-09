@@ -46,6 +46,10 @@ public class ArrayFunctions {
         return false;
     }
 
+    /**
+     * This method is the overloaded form of the {@code deleteValue()} method which
+     * lets the user to delete a value based on an index of the array.
+     */
     public boolean deleteValue(int index, int[] array) {
         return false;
     }

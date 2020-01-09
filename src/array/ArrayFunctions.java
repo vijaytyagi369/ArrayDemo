@@ -38,8 +38,9 @@ public class ArrayFunctions {
      * then the array value will be deleted, and the method will return {@code true}.
      * If the value does not exist inside the array, then the method will return {@code false}.
      *
-     * @param array the integer array in which the value is to be deleted
-     * @param value the value which is to be deleted
+     * @param array the integer array in which the value is to be deleted.
+     * @param value the value which is to be deleted.
+     * @return {@code true} if the value was deleted; {@code false} if the value was not present.
      */
     public boolean deleteValue(int[] array, int value) {
         return false;

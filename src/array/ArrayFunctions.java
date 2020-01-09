@@ -45,4 +45,8 @@ public class ArrayFunctions {
     public boolean searchValue(int[] array, int value) {
         return false;
     }
+
+    public void sortValues(int[] array) {
+
+    }
 }

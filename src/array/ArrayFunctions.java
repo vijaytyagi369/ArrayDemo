@@ -42,6 +42,9 @@ public class ArrayFunctions {
         return false;
     }
 
+    /**
+     * This method will search for an integer value inside an integer array.
+     */
     public boolean searchValue(int[] array, int value) {
         return false;
     }

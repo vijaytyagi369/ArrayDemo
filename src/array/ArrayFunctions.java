@@ -31,4 +31,8 @@ public class ArrayFunctions {
     public void insertValue(int[] array, int value, int index) {
 
     }
+
+    public boolean deleteValue(int value) {
+        return false;
+    }
 }

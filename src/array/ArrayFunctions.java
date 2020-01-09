@@ -49,4 +49,8 @@ public class ArrayFunctions {
     public void sortValues(int[] array) {
 
     }
+
+    public void printArrayValues(int[] array) {
+
+    }
 }

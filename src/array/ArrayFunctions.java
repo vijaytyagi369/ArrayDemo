@@ -41,4 +41,8 @@ public class ArrayFunctions {
     public boolean deleteValue(int value) {
         return false;
     }
+
+    public boolean searchValue(int[] array, int value) {
+        return false;
+    }
 }

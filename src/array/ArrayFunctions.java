@@ -49,6 +49,9 @@ public class ArrayFunctions {
         return false;
     }
 
+    /*
+     * This method will sort the values of the integer array in an increasing order.
+     * */
     public void sortValues(int[] array) {
 
     }

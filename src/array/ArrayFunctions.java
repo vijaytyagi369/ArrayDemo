@@ -38,7 +38,7 @@ public class ArrayFunctions {
      * then the array value will be deleted, and the method will return {@code true}.
      * If the value does not exist inside the array, then the method will return {@code false}.
      */
-    public boolean deleteValue(int value) {
+    public boolean deleteValue(int[] array, int value) {
         return false;
     }
 

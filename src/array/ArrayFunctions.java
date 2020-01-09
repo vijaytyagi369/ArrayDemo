@@ -16,6 +16,7 @@ public class ArrayFunctions {
      * @param value the value that is to be inserted
      */
     public void insertValue(int[] array, int value) {
+        array[array.length - 1] = value;
 
     }
 
@@ -29,6 +30,7 @@ public class ArrayFunctions {
      * @param index the index at which the value is to be inserted
      */
     public void insertValue(int[] array, int value, int index) {
+        array[index] = value;
 
     }
 
@@ -43,6 +45,7 @@ public class ArrayFunctions {
      * @return {@code true} if the value was deleted; {@code false} if the value was not present.
      */
     public boolean deleteValue(int[] array, int value) {
+
         return false;
     }
 

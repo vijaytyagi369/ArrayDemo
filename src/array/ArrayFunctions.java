@@ -8,5 +8,7 @@
 package array;
 
 public class ArrayFunctions {
+    public void insertValue(int[] array, int value) {
 
+    }
 }
